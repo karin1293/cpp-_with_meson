@@ -59,12 +59,12 @@ Después de esto ejecute lo siguiente en la terminal:
 ```bash
 g++ main.cpp -o main
 ```
-Notará que aparece un nuevo archivo dentro de la carpeta que es el ejecutable correspondiente al programa, tambien preste atencion a la primera columna de las letras esto corresponde a las operaciones permitidas para el archivo puede encontrar mas sobre esto aqui [[2]](2), ahora escriba lo siguiente en la terminal.
+Notará que aparece un nuevo archivo dentro de la carpeta, este es el ejecutable correspondiente al programa. También preste atención a la primera columna de las letras, esto corresponde a las operaciones permitidas para el archivo, puede encontrar más sobre esto en [[2]](2). Ahora escriba lo siguiente en la terminal:
 ```bash
 ./main
 ```
-Deberia obtener la siguiente salida "Hello World", preste atencion
-a la primera linea del codigo tiene lo siguiente
+Debería obtener la siguiente salida:  "Hello World", preste atención
+a la primera línea del código, tiene lo siguiente:
 ```#include <iostream>``` con esto lo que querimos decir es que hacemos una llamada al header iostream de la biblioteca estandar de c++.
 # Primer archivo de ficheros.
 Ahora cree un archivo llamado myheader.hpp y escriba lo siguiente en el
@@ -76,7 +76,7 @@ void hello(){
 	return;
 }
 ```
-Ahora agregue esto en el archivo main.cpp, de manera que se vea de la siguiente manera.
+Luego agregue esto en el archivo main.cpp, de manera que se vea de la siguiente manera.
 ```cpp
 #include <iostream>
 #include "myheader.hpp"
@@ -92,12 +92,13 @@ Ahora en la terminal escriba lo siguiente:
 g++ main.cpp myheader.hpp -o main
 ./main
 ```
-Debio obtener la siguiente salida:
+Debió obtener la siguiente salida:
 ```
 Hello world
 Hello me
 ```
-Lo anterior es el proceso por el cual se añade un header file al proceso de compilacion (al escribir header files se deben tomar en cuenta los header guards pero por razones de simplicidad este tema se tocara en el futuro.).
+Lo anterior es el proceso por el cual se añade un header file al proceso de compilacion. Cabe  mencionar 
+ que al escribir header files, se deben tomar en cuenta los header guards pero por razones de simplicidad este tema se tocará en el futuro.
 
 ## Referencias
 <a id="1">[1]</a>
